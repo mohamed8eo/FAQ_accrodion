@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 
-const Qution = ({qution,answer}) => {
+const Questions = ({qution,answer}) => {
     const [showmore, setshowmore] = useState(true)
     const handleclick = () => {
         setshowmore(!showmore)
@@ -26,4 +26,4 @@ const Qution = ({qution,answer}) => {
         </>
     )
 }
-export default Qution
+export default Questions
