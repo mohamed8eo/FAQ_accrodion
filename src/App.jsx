@@ -3,12 +3,12 @@ const App = () => {
 
   return (
     <>
-      <img src="/background-pattern-desktop.svg" alt="background pattern for pc" className="w-full hidden md:block " />
-      <img src="/background-pattern-mobile.svg" alt="background pattern for pc" className="w-full  md:hidden block " />
+      <img src="./assets/background-pattern-desktop.svg" alt="background pattern for pc" className="w-full hidden md:block " />
+      <img src="./assets/background-pattern-mobile.svg" alt="background pattern for pc" className="w-full  md:hidden block " />
       <div className="bg-white p-5 pl-6 pr-6  md:w-[45%] w-[85%]  mx-auto rounded-xl absolute left-[50%] top-[50%] transform -translate-x-1/2 -translate-y-1/2">
         
         <header className="flex items-center gap-5 mb-8">
-          <img src="/icon-star.svg" alt="star icon" className="w-8 " />
+          <img src="./assets/icon-star.svg" alt="star icon" className="w-8 " />
           <h1 className="faqs text-5xl font-bold">FAQs</h1>
         </header>
 

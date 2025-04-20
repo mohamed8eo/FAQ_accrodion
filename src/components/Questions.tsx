@@ -14,7 +14,7 @@ const Questions = ({qution,answer}) => {
                 {qution}
                 </p>
                 <div onClick={handleclick} >
-                    {showmore?<img  src="/icon-plus.svg" alt="plus icon to show more content"/>:<img  src="/icon-minus.svg" alt="minus icon to show more content"/>}
+                    {showmore?<img  src="./assets/icon-plus.svg" alt="plus icon to show more content"/>:<img  src="./assets/icon-minus.svg" alt="minus icon to show more content"/>}
                 </div>
                 </div>
                 {showmore ?null:<p className="font-normal text-base paragh mb-4">
