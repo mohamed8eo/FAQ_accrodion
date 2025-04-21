@@ -5,7 +5,8 @@ const App = () => {
     <>
       <img src="./assets/background-pattern-desktop.svg" alt="background pattern for pc" className="w-full hidden md:block " />
       <img src="./assets/background-pattern-mobile.svg" alt="background pattern for pc" className="w-full  md:hidden block " />
-      <div className="bg-white p-5 pl-6 pr-6  md:w-[45%] w-[85%]  mx-auto rounded-xl absolute left-[50%] top-[50%] transform -translate-x-1/2 -translate-y-1/2">
+      <div className="bg-white p-5 pl-7 pr-7  md:w-[39%] w-[85%]  mx-auto rounded-xl absolute left-[50%] top-[50%] transform -translate-x-1/2 -translate-y-1/2">
+        
         
         <header className="flex items-center gap-5 mb-8">
           <img src="./assets/icon-star.svg" alt="star icon" className="w-8 " />
@@ -15,6 +16,7 @@ const App = () => {
         <Questions
           qution="What is Frontend Mentor, and how will it help me?"
           answer="Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for all levels and ideal for portfolio building"
+          isActive={true}
         />
         
         <Questions

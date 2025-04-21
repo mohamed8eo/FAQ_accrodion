@@ -13,6 +13,10 @@
   .faqs,
   .quation{
     color: var(--Purple-950);
+    cursor: pointer;
+  }
+  .quation:hover{
+    color: #ad28eb;
   }
   .paragh{
     color: var(--Purple-600);
